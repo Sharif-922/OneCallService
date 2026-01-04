@@ -10,28 +10,57 @@ body {
     background-color: #faf9f6;
     color: #333;
     line-height: 1.6;
-    padding: 20px;
+    padding: 10px;
 }
 
 /* Hero Section */
 .hero {
     text-align: center;
-    padding: 80px 20px 60px 20px;
+    padding: 10px 10px 10px 10px;
     background: linear-gradient(135deg, #4a90e2, #50e3c2);
     color: #fff;
     border-radius: 12px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .hero h1 {
     font-size: 2.5rem;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .hero-subtext {
     font-size: 1.2rem;
     font-weight: 500;
+}
+
+/* Promo Banner Styles */
+.promo-banner {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 12px;
+    margin: 30px auto;
+    max-width: 700px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.promo-banner h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.promo-banner p {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.promo-banner .highlight {
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: #ffe066;
 }
 
 /* Services Section */
@@ -46,7 +75,7 @@ body {
 .card {
     background-color: #fff;
     border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     width: 450px;
     padding: 20px;
     text-align: center;
@@ -55,7 +84,22 @@ body {
 
 .card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.cta-btn {
+    background: #4a90e2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.cta-btn:hover {
+    background: #ff4500;
 }
 
 /* Card Image */
